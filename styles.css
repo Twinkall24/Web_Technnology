@@ -1,0 +1,100 @@
+body {
+    background-color: #fceae8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #d6336c;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #d6336c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+em {
+    color: #c2185b;
+    font-style: italic;
+}
+
+strong {
+    color: #0077b6;
+    font-weight: bold;
+}
+
+u {
+    text-decoration: underline;
+}
+
+i {
+    font-style: italic;
+}
+
+b {
+    font-weight: bold;
+}
+
+tt {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+mark {
+    background-color: #ffff99;
+}
+
+sup, sub {
+    font-size: 0.8em;
+}
+
+del {
+    color: gray;
+    text-decoration: line-through;
+}
+
+ins {
+    color: green;
+    text-decoration: underline;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    height: auto;
+    border: 2px solid #d6336c;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    img {
+        width: 90%;
+    }
+}
